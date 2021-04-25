@@ -6,6 +6,7 @@ Kernel source: "https://github.com/ryan-andri/android_kernel_xiaomi_tulip.git"
 
 | Device                  | Xiaomi Redmi Note 6 Pro                                     |
 | ----------------------- | :---------------------------------------------------------- |
+| Recovery based version  | Android 9                                                   |
 | SoC                     | Qualcomm SDM660 Snapdragon 636                              |
 | CPU                     | 8x Qualcomm® Kryo™ 260 CPU                                  |
 | GPU                     | Adreno 509                                                  |
