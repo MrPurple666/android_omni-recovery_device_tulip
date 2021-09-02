@@ -26,8 +26,8 @@ $(call inherit-product, vendor/omni/config/common.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tulip
 PRODUCT_NAME := omni_tulip
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Xiaomi Redmi Note 6 Pro
+PRODUCT_BRAND := Redmi
+PRODUCT_MODEL := Redmi Note 6 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 # enable stock zip packages flash
