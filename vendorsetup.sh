@@ -17,7 +17,7 @@
 #
 # 	Please maintain this if you use this script or any part of it
 #
-FDEVICE="tulip"
+FDEVICE="tulip,twolip,tulix"
 if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export PLATFORM_VERSION="16.1.0"
    	export TW_DEFAULT_LANGUAGE="en"
@@ -47,7 +47,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export FOX_ADVANCED_SECURITY=1
         export OF_USE_TWRP_SAR_DETECT=1
         export OF_DISABLE_MIUI_OTA_BY_DEFAULT=0
-        export OF_QUICK_BACKUP_LIST="/boot;/data;"
+        export OF_QUICK_BACKUP_LIST="/system_image;/vendor_image;"
         # -- end R11 settings --
 
 	# OTA for custom ROMs
